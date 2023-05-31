@@ -45,14 +45,17 @@ header {
 }
 
 .grid-cards {
-  padding-top: 20px;
+  display: flex;
+  justify-content: space-between; /*SPAZIA LE CARDS*/
+  flex-wrap: wrap; /*MANDA A CAPO LA 4a FOTO*/
 }
 
 .box-cards {
-  display: flex;
-  justify-content: space-between; /*SPAZIA LE CARDS*/
+  width: 32%;  /*LASCIO 1*3=3% PER SPAZIARE*/
+  padding: 40px 0 0; /*SPAZIO TRA LE FOTO*/
 }
 
-.box-cards > img {
- width: 32%;   /*LASCIO UNA PICCOLA PERCENTUALE PER SPAZIARE LE CARDS*/
+.box-cards img {
+  width: 100%;
+  height: 100%;
 }
