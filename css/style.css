@@ -3,3 +3,18 @@
   margin: 0;
   padding: 0;
 }
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ff6900;
+}
+
+.container ul {
+  display: flex;
+  list-style: none;
+}
+
+.container img {
+  height: 40px;
+}
