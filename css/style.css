@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
   background-color: #ff6900;
   box-shadow: 0 1px 4px 0;
@@ -70,6 +74,7 @@ main {
 .article-cards {
   display: block; /*PERCHE' DEVO RENDERE BLOCK?*/
   position: relative;
+  color: black;
 }
 
 .heart {
@@ -79,13 +84,14 @@ main {
   background-color: white;
   padding: 5px 10px;
   font-size: 25px;
-  color: black;
 }
 
 .box-disc-sost {
   position: absolute;
-  bottom: 20px;
+  bottom: 40px;
   left: 0;
+  font-size: .8rem;
+  color: white;
 }
 
 .discount {
@@ -98,6 +104,20 @@ main {
   padding: 5px;
 }
 
+h4 {
+  font-weight: 300;
+}
+
+h3 {
+  font-size: .7rem;
+  font-weight: 900;
+}
+
 .price-discount {
   color: red;
+  font-weight: 700;
+}
+
+.price-full {
+  text-decoration: line-through;
 }
