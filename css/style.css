@@ -4,13 +4,18 @@
   padding: 0;
 }
 
+header {
+  background-color: #ff6900;
+  box-shadow: 0 1px 4px 0;
+}
+
 .container {
   max-width: 980px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .header-box {
-  background-color: #ff6900;
   display: flex;
   justify-content: space-between; /*VERIFICARE IL LOGO BOOLEAN-NON E' CENTRATO PERFETTAMENTE*/
   align-items: center;
@@ -26,7 +31,7 @@
   padding-right: 5px;  /*SPAZIATURE TRA LE VOCI DEL MENU HEADER ALTO SX*/
 }
 
-.container img {
+.container .logo {
   height: 40px;
   padding: 10px;
 }
@@ -39,3 +44,6 @@
   display: inline-block; /*ALTRIMENTI NON POSSO DARE PADDING (gia dato sopra)*/
 }
 
+.grid-cards {
+  padding-top: 20px;
+}
