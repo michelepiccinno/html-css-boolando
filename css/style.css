@@ -12,7 +12,7 @@
 .header-box {
   background-color: #ff6900;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /*VERIFICARE IL LOGO BOOLEAN-NON E' CENTRATO PERFETTAMENTE*/
   align-items: center;
   color: white;
 }
@@ -32,9 +32,10 @@
 }
 
 .head-symbol > span {
+  padding-left: 5px;
+} 
+
+.head-symbol > span {
   display: inline-block; /*ALTRIMENTI NON POSSO DARE PADDING (gia dato sopra)*/
 }
 
-.head-symbol > span {
-  padding-left: 5px;
-}
