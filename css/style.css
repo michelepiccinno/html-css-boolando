@@ -13,7 +13,7 @@ header {
   box-shadow: 0 1px 4px 0;
   position: fixed;  /*FISSO LA NAV*/
   width: 100%;
-  z-index: 1;  /*LA SPOSTO SU LEVEL 1*/
+  z-index: 2;  /*LA SPOSTO SU LEVEL 1*/
 }
 
 .container {
@@ -82,8 +82,9 @@ main {
   top: 15px;
   right: 0;
   background-color: white;
-  padding: 5px 10px;
+  padding: 3px 10px;
   font-size: 25px;
+  z-index: 1; /*RIMANE AD UN LIVELLO SUPERIORE IN CASO DI MOUSE HOVER*/
 }
 
 .box-disc-sost {
@@ -92,6 +93,7 @@ main {
   left: 0;
   font-size: .8rem;
   color: white;
+  z-index: 1;
 }
 
 .discount {
@@ -120,4 +122,33 @@ h3 {
 
 .price-full {
   text-decoration: line-through;
+}
+
+/*SEZIONE MOUSE HOVER*/
+/*.img-first {              CANCELLARE
+position: relative;
+  display: inline-block;
+}*/
+
+.article-cards .img-top {
+  display: none;
+  position: absolute;
+ /* top: 0;             CANCELLARE
+  left: 0;*/
+}
+
+.article-cards:hover .img-top {
+  display: block;
+  cursor: pointer;
+  padding-bottom: 4px; /*ELIMINA LA LINEA SOTTO LA FOTO AL PASSAGGIO DEL MOUSE*/
+}
+
+.heart:hover {        /*CUORE DIVENTA ROSSO CON HOVER MOUSE*/
+   color: #ff0000;
+}
+
+/*-----------------------*/
+
+.display-none {  /*USATO PER NASCONDERE ALL'OCCORRENZA I TAG SCONTO O SUSTAINIBILITY*/
+  display: none;
 }
