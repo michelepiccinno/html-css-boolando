@@ -47,3 +47,12 @@ header {
 .grid-cards {
   padding-top: 20px;
 }
+
+.box-cards {
+  display: flex;
+  justify-content: space-between; /*SPAZIA LE CARDS*/
+}
+
+.box-cards > img {
+ width: 32%;   /*LASCIO UNA PICCOLA PERCENTUALE PER SPAZIARE LE CARDS*/
+}
