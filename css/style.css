@@ -148,7 +148,6 @@ h3 {
 footer span {   /*SELEZIONA TUTTI GLI SPAN DISCENDENTI DI FOOTER*/
   font-size: 12px;;
   margin-right: 5px;
-  text-align: center;
 }
 
 footer {
@@ -160,4 +159,13 @@ footer .bckgr {
   justify-content: space-between;
   padding: 20px 0;
   color: white;
+}
+
+.head-symbol i {
+  margin-left: 5px;
+}
+
+.social > h5 {
+  font-size: 12px;
+  padding-bottom: 10px;
 }
